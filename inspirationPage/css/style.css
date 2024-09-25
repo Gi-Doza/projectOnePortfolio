@@ -29,6 +29,19 @@ h1 {
 }
 
 
+h2 {
+    color: #181B1B;
+
+    /* h2 - section */
+    font-family: Montserrat;
+    font-size: 61px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 73.2px */
+    letter-spacing: 1.22px;
+}
+
+
 h6 {
     color: #235959;
 
@@ -47,6 +60,24 @@ p {
     font-size: 16px;
     line-height: 20px; /* 125% */
     letter-spacing: 0.48px;
+}
+
+
+a {
+    color: #646666;
+
+    /* caption */
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 133.333% */
+    letter-spacing: 0.36px;
+}
+
+
+a:hover {
+    color:#181B1B;
 }
 
 
@@ -133,7 +164,7 @@ section.pageTitle {
 
 
 .thickLineAbout1 {
-    width: 305px;
+    width: 203px;
     height: 8px;
     flex-shrink: 0;
     background: #F2F2F2;
@@ -145,64 +176,99 @@ section.pageTitle {
 
 h1.about {
     margin-top: 16px;
-    margin-left: 407px;
+    margin-left: 305px;
     position: absolute;
 }
 
 
 .thickLineAbout2 {
-    width: 383px;
+    width: 225px;
     height: 8px;
     flex-shrink: 0;
     background: #F2F2F2;
     margin-top: 85px;
-    margin-left: 715px;
+    margin-left: 873px;
     position: absolute;
 }
 
 
-section.gifWrapper {
+.sectionWhiteBg {
+    display: flex;
+    padding: 24px 0px 40px 0px;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.inspoInfo {
+    display: flex;
     width: 1200px;
-    height: 640px;
-    background: #F2F2F2;
-
-    /* sectionShadow */
-    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.16);
+    padding: 32px 100px;
+    align-items: flex-start;
+    gap: 32px;
 }
 
 
-img.logoGif {
-    width: 100%;
-    height: 100%;
+.inspoProfileWrapper {
+    width: 285px;
+    height: 285px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: url(<path-to-image>) lightgray -17.235px 0px / 150% 100% no-repeat;
+    overflow: hidden;
+
+    /* photoShadow */
+    box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.20);
+}
+
+
+.inspoProfileWrapper img {
     object-fit: cover;
-    object-position: 10% top;
 }
 
 
-section.aboutMain {
+.headerAndLinks {
     display: flex;
-    width: 1000px;
-    padding: 32px 100px 128px 100px;
-    align-items: center;
-    gap: 20px;
-    background: #F2F2F2;
-    text-align: justify;
-
-    /* sectionShadow */
-    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.16);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
 }
 
 
-
-.profilePhotoWrapper {
+.inspoTextWrapper {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    flex: 1 0 0;
+}
+
+
+.inspoGallery {
+    display: flex;
+    width: 1440px;
+    padding-bottom: 48px;
+    justify-content: space-between;
     align-items: center;
 }
 
 
-img.profilePhoto {
-    object-fit: cover;
+.items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+
+.items img {
+    height: 423px;
+    border-radius: 4px;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+
+    /* photoShadow */
+    box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.20);
 }
 
 

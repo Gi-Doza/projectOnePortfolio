@@ -3,6 +3,10 @@
     <Head>
         <meta charset="UTF-8">
         <title>My Inspirations</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     </Head>
     
     
@@ -10,48 +14,60 @@
     <body>
 
         <header>
+            <div class="nameLogoWrapper">
+                <img src="../img/gmLogo-sm.svg" alt="" role="presentation">
+                <h6>Gian Mendoza</h6>
+            </div>
             
-            <h1>People That Inspires Me</h1>
-                <h5>By: Gian Mendoza</h5>
-
-                    <nav>
-                        
-                        <a href="../index.html">Home</a> | 
-                        <a href="inspiration.html">Inspiration</a> | 
-                        <a href="../topFivePage/topFive.html">Top Fives</a>
-                        
-                    </nav>
-        
+            <nav>
+                <a href="../index.html">Home</a>
+                <a href="/inspirationPage/inspiration.html" class="current">Inspiration</a>
+                <a href="../topFivePage/topFive.html">Top Fives</a>
+            </nav>
         </header>
         
-        <hr>
-        
-        <section>
-        
-            <h2>1. Andrew Scott</h2>
-        
-                    <a href="https://www.andrewscottart.com/">Andrew Scott's Website</a>
-                    
-                    <br>
-                    <br>
 
-                    <a href="https://www.andrewscottart.com/2024-show/hideandseek-100"><h5>"Hide and Seek"</h5></a>
-                    <img src="img/andrewScott-hideAndSeek.png" alt="Andrew Scott's Artwork “Hide and Seek”: a boy and girl, each on different sides of a cornered frame, facing each other.">
+        <section class="pageTitle">
+            <div class="pageTitleWrapper">
+                <div class="thickLineAbout1"></div>
+                <h1 class="about">inspiration</h1>
+                <div class="thickLineAbout2"></div>
+            </div>
+        </section>
+        
 
-                    <a href="https://www.andrewscottart.com/2024-show/pull-250"><h5>"Pull"</h5></a>
-                    <img src="img/andrewScott-pull.png" alt="Andrew Scott's Artwork “Pull”: A girl in a red dress pulls a rope, creating the illusion it’s attached to the frame’s string.">
-                    
-                    <a href="https://www.andrewscottart.com/2024-show/tug-of-war"><h5>"Tug of War"</h5></a>
-                    <img src="img/andrewScott-tugOfWar.png" alt="Andrew Scott's Artwork “Tug of War”: a boy and a girl pull on opposite ends of a rope, while the boy is outside the frame.">
+        <section class="sectionWhiteBg">
+            <div class="inspoInfo">
+                <div class="inspoProfileWrapper">
+                    <img src="/inspirationPage/img/andrewScott.jpg" alt="Andrew Scott smiles at his workspace, holding a white picture frame, surrounded by tools and artwork.">
+                </div>
 
-                <h3>What inspires you about Andrew Scott?</h3>
-                    
-                    <p>I love Andrew Scott’s art. The way he uses the frame and different components of it, incorporated into his art, is really fascinating. I love how it is different from traditional framed artwork, yet it’s very effective. The details that go into each piece and the consistency in all of his work are great. When I see his art, it makes me think about how I can apply the same concept as an aspiring UI designer. It’s really thinking outside the box—or in this case… the frame.
+                <div class="inspoTextWrapper">
+                    <Div class="headerAndLinks">
+                        <h2>Andrew Scott</h2>
+                        <a href="https://www.andrewscottart.com/">Website</a>
+                    </Div>
+
+                    <p>Gian loves Andrew Scott’s art. The way Scott uses the frame and incorporates different components into his work is truly fascinating. Gian appreciates how Scott's art deviates from traditional framed artwork while still being highly effective. The attention to detail in each piece and the consistency throughout Scott's body of work are impressive. When Gian sees his art, it sparks thoughts on how similar concepts can be applied as an aspiring UI designer. It's really about thinking outside the box—or in this case, the frame.
                     </p>
+                </div>
+            </div>
 
-                <br>
-                <br>
-        
+
+            <div class="inspoGallery">
+                <div class="items">
+                    <img src="img/andrewScott-pull.png" alt="Andrew Scott's Artwork “Pull”: A girl in a red dress pulls a rope, creating the illusion it’s attached to the frame’s string.">
+                    <a href="https://www.andrewscottart.com/2024-show/pull-250"><h5>"Pull"</h5></a>
+                </div>
+                <div class="items">
+                    <img src="img/andrewScott-tugOfWar.png" alt="Andrew Scott's Artwork “Tug of War”: a boy and a girl pull on opposite ends of a rope, while the boy is outside the frame.">
+                    <a href="https://www.andrewscottart.com/2024-show/tug-of-war"><h5>"Tug of War"</h5></a>
+                </div>
+                <div class="items">
+                    <img src="img/andrewScott-hideAndSeek.png" alt="Andrew Scott's Artwork “Hide and Seek”: a boy and girl, each on different sides of a cornered frame, facing each other.">
+                    <a href="https://www.andrewscottart.com/2024-show/hideandseek-100"><h5>"Hide and Seek"</h5></a>
+                </div>
+            </div>
         </section>
 
         <hr>    
@@ -115,9 +131,7 @@
         <hr>
 
         <footer>
-
-            <a href="mailto: gmendoza@sfsu.edu">Contact Me</a>
-
+            <div class="footerText">&copy; 2024 Gian Mendoza</div><div class="divider">|</div><a href="mailto: gmendoza@sfsu.edu">Contact Me</a>
         </footer>
 
             
