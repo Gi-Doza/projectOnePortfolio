@@ -82,17 +82,12 @@ header {
 }
 
 
-.nameLogoWrapper {
+a.nameLogoWrapper {
     display: flex;
     align-items: center;
     gap: 8px;
+    text-decoration: none;;
 }
-
-
-.nameLogoWrapper a {
-    text-decoration: none !important;
-}
-
 
 nav {
     display: flex;
