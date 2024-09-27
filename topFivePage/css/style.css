@@ -86,8 +86,9 @@ a.nameLogoWrapper {
     display: flex;
     align-items: center;
     gap: 8px;
-    text-decoration: none;;
+    text-decoration: none;
 }
+
 
 nav {
     display: flex;
