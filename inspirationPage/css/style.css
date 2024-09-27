@@ -30,7 +30,7 @@ h1 {
 
 
 h2 {
-    color: #181B1B;
+    color: #235959;
 
     /* h2 - section */
     font-family: Montserrat;
@@ -237,6 +237,7 @@ h1.about {
     height: 285px;
     flex-shrink: 0;
     object-fit: cover;
+    
 }
 
 
@@ -262,8 +263,9 @@ h1.about {
     display: flex;
     width: 1440px;
     padding-bottom: 48px;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 20px;
 }
 
 
@@ -282,6 +284,18 @@ h1.about {
 
     /* photoShadow */
     box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.20);
+}
+
+
+.inspoLinkWrapper {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+
+.inspoLinkWrapper a {
+    text-decoration: none;
 }
 
 
